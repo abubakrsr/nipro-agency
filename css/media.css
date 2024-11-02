@@ -1,0 +1,297 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+/*common starts*/
+.c-pb{
+    padding-bottom: 50px !important;
+}
+
+/*header starts*/
+.menu ul li a {
+     padding: 5px 0 0 !important;
+}
+
+.btn-drop {
+    padding: 5px 10px;
+    width: 320px;
+}
+
+.btn-drop[data-bs-popper] {
+    top: 59px;
+    left: -13px;
+}
+
+.slider {
+    margin: 115px 0 115px;
+}
+
+.slider h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.slider p {
+    margin: 25px 0 45px !important;
+    line-height: 24px;
+    text-align: center;
+}
+
+.slider a {
+        padding: 8px 15px;
+}
+
+/*info starts*/
+.info{}
+.stroke {
+    height: 40px;
+}
+
+
+.np-h1 {
+    padding: 17px 0 30px;
+    font-size: 25px;
+}
+
+.np-p{
+    line-height: 24px;
+}
+
+.c-info{
+    padding: 0 20px 50px;
+}
+
+/*about starts*/
+
+.ab-img{
+        padding: 30px 0px;
+}
+
+.ab-h1{
+    text-align: center;
+}
+
+.ab-p{
+    text-align: justify;
+    
+}
+
+.ab-p2{
+    text-align: justify;
+    
+}
+
+.about a{
+    padding: 8px 15px;
+}
+
+.ab-link {
+    margin: 0 60px;
+
+}
+
+
+
+ }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/*common starts*/
+.c-pb{
+    padding-bottom: 60px !important;
+}
+
+/*header starts*/
+.menu ul li a {
+     padding: 5px 0 0 !important;
+}
+
+.btn-drop {
+    padding: 5px 10px;
+}
+
+.btn-drop[data-bs-popper] {
+    top: 2px;
+    left: 53px;
+}
+
+.slider {
+    margin: 145px 0 150px;
+   
+}
+
+.slider h1{
+    font-size: 45px;
+}
+
+.slider p {
+    line-height: 24px;
+    text-align: center;
+}
+
+.slider a {
+    padding: 10px 20px;
+}
+
+/*info starts*/
+.info{
+        padding: 0 75px;
+}
+.stroke {
+    height: 40px;
+}
+
+
+.np-h1 {
+    font-size: 25px;
+}
+
+.np-p{
+    line-height: 24px;
+}
+
+.c-info{
+    padding: 0 20px 50px;
+}
+
+/*about starts*/
+
+.ab-img{
+        padding: 30px 40px;
+}
+
+.ab-h1{
+    text-align: center;
+}
+
+.ab-p{
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.ab-p2{
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.ab-link {
+    
+    margin: 0 156px;
+}
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*common starts*/
+.c-pb{
+    padding-bottom: 80px !important;
+}
+
+/*header starts*/
+.menu ul li a {
+     padding: 10px 0 0 !important;
+}
+
+.btn-drop[data-bs-popper] {
+        top: -5px;
+        left: 69px
+}
+
+.slider {
+    margin: 160px 0px 140px;
+   
+}
+
+.slider a {
+    padding: 10px 20px;
+}
+
+/*info starts*/
+.info{
+        padding: 0 45px;
+}
+.stroke {
+    height: 40px;
+}
+
+.np-h1 {
+    font-size: 25px;
+}
+
+.np-p{
+    line-height: 24px;
+}
+
+/*about starts*/
+
+.ab-img{
+        padding: 30px 40px;
+}
+
+.ab-h1{
+    text-align: center;
+}
+
+.ab-p{
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.ab-p2{
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.ab-link {
+    
+    margin: 0 246px;
+}
+
+
+    
+
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*banner starts*/
+
+.slider h1{
+    font-size: 50px !important;
+}
+
+/*about starts*/
+.ab-p {
+    margin: 20px 0 !important;
+}
+
+
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+/*about starts*/
+.ab-p, .ab-p2{
+    line-height: 36px;
+}
+
+ }
+
+
+/*// Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/*about starts*/
+.ab-p, .ab-p2{
+    line-height: 45px;
+}
+
+}
